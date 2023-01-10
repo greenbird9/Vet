@@ -47,6 +47,7 @@ nav ul li a{
     padding: 5%;
     color: whitesmoke;
     font-size: x-large;
+    background-color: #f1d100;
 }
 
 .vet-text div{
@@ -60,6 +61,7 @@ nav ul li a{
 
 .vet-text .buttons{
     float: left;
+    width: 100%;
 }
 
 .vet-text .buttons button{
@@ -78,9 +80,49 @@ nav ul li a{
 .b2{
     background-color: #f1d100;
     border: whitesmoke solid;
+    cursor: pointer;
 }
 
 .vet-text img{
     height: 60vh;
     width: 30vw;
+}
+
+.vet-text2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    font-size: x-large;
+}
+
+.vet-text2 div{
+    padding-top: 5%;
+    width: 50%;
+}
+
+.vet-text2 p{
+    font-size: large;
+}
+
+.vet-text2 iframe{
+    height: 60vh;
+    width: 30vw;
+    margin-top: 5%;
+}
+
+.vet-text2 .buttons{
+    float: left;
+    width: 100%;
+}
+
+.vet-text2 .b2{
+    font-size: large;
+    padding: 4% 9%;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.vet-text2 .buttons button{
+    cursor: pointer;
 }
